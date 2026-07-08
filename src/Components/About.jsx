@@ -34,16 +34,20 @@ function About() {
       </h2>
 
       <div className="grid lg:grid-cols-2 gap-8 mb-16">
-        <div className={`${cardBase} p-8`}>
+        <div className={`${cardBase} p-8`}> 
+          <img
+            src="/images/photo.jpg"
+            alt="Sahaj Dang — Software Engineer"
+            loading="lazy"
+            className="mx-auto w-40 h-40 rounded-full object-cover mb-6 shadow-lg border-4 border-white/10"
+          />
           <p className={`${bodyText} mb-4`}>
             I&apos;m Sahaj Dang, a Computer Science graduate specializing in Data Science and Analytics, passionate about building software that solves real-world problems.
           </p>
           <p className={`${bodyText} mb-4`}>
             My experience spans Java development, full-stack web applications, data analytics, and scalable software solutions. With strong foundations in Data Structures, Algorithms, Object-Oriented Programming, and System Design, I focus on creating reliable, efficient, and user-friendly applications.
           </p>
-          <p className={bodyText}>
-            Whether I&apos;m developing new products, exploring emerging technologies, or solving challenging problems, I strive for continuous learning and engineering excellence.
-          </p>
+          
         </div>
 
         <div className="space-y-3">

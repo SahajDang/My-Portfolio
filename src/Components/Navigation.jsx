@@ -70,9 +70,11 @@ function Navigation({ activeSection, isMenuOpen, setIsMenuOpen, scrollToSection 
         <div className="flex items-center justify-between">
           <button
             onClick={() => scrollToSection("hero")}
-            className={`${fontDisplay} text-xl font-bold text-[#F8F4FF] hover:text-[#A56BFF] transition-colors duration-300`}
+            className={`${fontDisplay} text-xl font-bold text-[#F8F4FF] hover:text-[#A56BFF] transition-colors duration-300 flex items-center gap-3`}
+            aria-label="Go to home"
           >
-            Sahaj
+            <img src="/images/photo.jpg" alt="Sahaj logo" className="w-8 h-8 rounded-full object-cover" loading="lazy" />
+            <span>Sahaj</span>
           </button>
 
           <div className={`hidden md:flex space-x-7 ${fontMono} text-sm`}>

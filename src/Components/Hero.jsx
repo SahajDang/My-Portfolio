@@ -20,7 +20,6 @@ function Hero({ scrollToSection }) {
         <p className={`${fontMono} text-sm sm:text-base text-[#C29BFF] mb-14 tracking-wide`}>
           Building scalable software and solving complex problems through technology.
         </p>
-
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <button onClick={() => scrollToSection("projects")} className={btnPrimary}>
             View My Work

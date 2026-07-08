@@ -7,6 +7,7 @@ function Publications() {
       title: "Skin Disease Detection using Vision Transformers",
       journal: "Research Manuscript Under Review",
       authors: "Sahaj Dang",
+      c_authors : "Shreya Saxena, Maniya Jain",
       publishDate: "2026",
       abstract: "Conducted research on automated skin disease classification using Vision Transformer (ViT) architectures. The work focuses on deep learning-based image analysis, feature extraction, and improving diagnostic accuracy through advanced computer vision techniques.",
       tech: ["Python", "TensorFlow", "Vision Transformers", "Deep Learning", "Computer Vision"],
@@ -38,6 +39,9 @@ function Publications() {
 
             <p className={`${bodyText} text-sm mb-4`}>
               <span className="font-semibold text-[#A56BFF]">Author: </span>{paper.authors}
+            </p>
+            <p className={`${bodyText} text-sm mb-4`}>
+              <span className="font-semibold text-[#A56BFF]">Co-Author: </span>{paper.c_authors}
             </p>
             <p className={`${bodyText} text-sm mb-4`}>{paper.abstract}</p>
 

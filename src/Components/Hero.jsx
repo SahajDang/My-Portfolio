@@ -6,7 +6,7 @@ function Hero({ scrollToSection }) {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-white/[0.03] backdrop-blur-sm mb-8 ${eyebrow}`}>
           <span className="w-1.5 h-1.5 rounded-full bg-[#A56BFF] animate-pulse" />
-          Digital Specialist Engineer Trainee · Infosys
+          Incoming Digital Specialist Engineer Trainee · Infosys
         </div>
 
         <h1 className={`${fontDisplay} text-5xl sm:text-6xl md:text-8xl font-bold mb-6 leading-[0.95] text-[#F8F4FF]`}>
